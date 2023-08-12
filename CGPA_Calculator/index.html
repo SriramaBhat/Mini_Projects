@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculate.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>CGPA Calculator</h1>
+      <form action="/" id="score-form">
+        <article>
+          <h2>Semester 1</h2>
+          <label for="sem1-credits">Credits:</label>
+          <input id="sem1-credits" value="" />
+          <label for="sem1-grade">Grades:</label>
+          <input id="sem1-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 2</h2>
+          <label for="sem2-credits">Credits:</label>
+          <input id="sem2-credits" value="" />
+          <label for="sem2-grade">Grades:</label>
+          <input id="sem2-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 3</h2>
+          <label for="sem3-credits">Credits:</label>
+          <input id="sem3-credits" value="" />
+          <label for="sem3-grade">Grades:</label>
+          <input id="sem3-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 4</h2>
+          <label for="sem4-credits">Credits:</label>
+          <input id="sem4-credits" value="" />
+          <label for="sem4-grade">Grades:</label>
+          <input id="sem4-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 5</h2>
+          <label for="sem5-credits">Credits:</label>
+          <input id="sem5-credits" value="" />
+          <label for="sem5-grade">Grades:</label>
+          <input id="sem5-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 6</h2>
+          <label for="sem6-credits">Credits:</label>
+          <input id="sem6-credits" value="" />
+          <label for="sem6-grade">Grades:</label>
+          <input id="sem6-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 7</h2>
+          <label for="sem7-credits">Credits:</label>
+          <input id="sem7-credits" value="" />
+          <label for="sem7-grade">Grades:</label>
+          <input id="sem7-grade" value="" />
+        </article>
+        <article>
+          <h2>Semester 8</h2>
+          <label for="sem8-credits">Credits:</label>
+          <input id="sem8-credits" value="" />
+          <label for="sem8-grade">Grades:</label>
+          <input id="sem8-grade" value="" />
+        </article>
+        <div id="btn-div">
+          <button type="submit">Calculate</button>
+          <button type="reset">Clear</button>
+        </div>
+      </form>
+      <div id="cgpa-con" style="display: none;">
+        <h2>The CGPA is: </h2>
+        <h1 id="cgpa"></h1>
+      </div>
+    </main>
+  </body>
+</html>
